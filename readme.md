@@ -1,6 +1,6 @@
 # file list
 
-htm=================
+htm
 japanexperience.htm (X) archive.org
 credits.htm
 linegal.htm
@@ -18,9 +18,9 @@ videos.htm
 launchnews.htm
 luigiimp.htm
 "marioimp.htm"
-====================
 
-jpg==============
+
+jpg
 images/
 mario01.jpg (17865 bytes)
 mario02.jpg (12920 bytes)
@@ -74,14 +74,12 @@ lm001401820.jpg (x bytes)
 lm001401822.jpg (x bytes)
 lm001401823.jpg (x bytes)
 lm001401824.jpg (x bytes)
-====================
 
-flash===============
+
+flash
 japan.swf (X) archive.org
-====================
 
-gif=================
+gif
 separator.gif (X) archive.org
 toplogo.fig (X) archive.org
 bottomlogo.gif (X) archive.org
-====================
