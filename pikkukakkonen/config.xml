@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<YLE>
+
+	<P2Engine>
+	
+		<P2Core>
+		
+			<checkLoadsIntervalTime>250</checkLoadsIntervalTime>
+			<garbageCollectIntervalTime>1000</garbageCollectIntervalTime>
+			<touchResourceInterval>100</touchResourceInterval>
+			
+			<assetPackages>
+				<materiaali>
+					<type>direct</type>
+					<urlPrefix>/progressive/lapset/pikkukakkonen/</urlPrefix>
+					<urlSuffix></urlSuffix>
+				</materiaali>
+				<YLE>
+					<BUU>
+						<type>direct</type>
+						<urlPrefix>assets/YLE.BUU/</urlPrefix>
+						<urlSuffix>?v=16082010</urlSuffix>
+						<Content>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.BUU.Content/</urlPrefix>
+							<urlSuffix>?v=16082010</urlSuffix>
+						</Content>
+					</BUU>
+					<P2>
+						<World>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.World/</urlPrefix>
+							<urlSuffix>?v=05032012</urlSuffix>
+						</World>
+						
+					<Taitoset>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Taitoset/</urlPrefix>
+							<urlSuffix>?v=25082011</urlSuffix>
+					</Taitoset>
+						
+						
+						
+					<Kuuntele>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Kuuntele/</urlPrefix>
+							<urlSuffix>?v=08012010</urlSuffix>
+							<Content>
+								<type>direct</type>
+								<urlPrefix>assets/YLE.P2.Kuuntele.Content/</urlPrefix>
+								<urlSuffix>?v=22032010</urlSuffix>
+							</Content>				
+						</Kuuntele>	
+						
+						<Runoroskis>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Runoroskis/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</Runoroskis>
+						
+						<CameraCorner>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.CameraCorner/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</CameraCorner>
+						
+						<Pauli>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Pauli/</urlPrefix>
+							<urlSuffix>?v=17072008</urlSuffix>
+						</Pauli>
+						
+						<Katinkontti>
+  							<type>direct</type> 
+ 							<urlPrefix>assets/YLE.P2.Katinkontti/</urlPrefix> 
+ 						<urlSuffix></urlSuffix>
+  						</Katinkontti>
+						
+						<Luistelukoulu>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Luistelukoulu/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</Luistelukoulu>
+						
+						<MimiJaKuku>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.MimiJaKuku/</urlPrefix>
+							<urlSuffix>?v=17072008</urlSuffix>
+						</MimiJaKuku>
+						
+						<DragGame>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.DragGame/</urlPrefix>
+							<urlSuffix>?v=21072008b</urlSuffix>
+						</DragGame>
+						
+						<Neppajymykerho>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Neppajymykerho/</urlPrefix>
+							<urlSuffix>?v=11032011</urlSuffix>
+							<Content>
+								<type>direct</type>
+								<urlPrefix>assets/YLE.P2.Neppajymykerho.Content/</urlPrefix>
+								<urlSuffix></urlSuffix>
+							</Content>
+						</Neppajymykerho>
+						
+						<Lelukori>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Lelukori/</urlPrefix>
+							<urlSuffix>?v=17072008</urlSuffix>
+						</Lelukori>
+						
+						<TomGame>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.TomGame/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</TomGame>
+						
+						<TV>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.TV/</urlPrefix>
+							<urlSuffix>?v=08012010</urlSuffix>
+							<Content>
+								<type>direct</type>
+								<urlPrefix>assets/YLE.P2.TV.Content/</urlPrefix>
+								<urlSuffix></urlSuffix>
+							</Content>
+						</TV>
+						<FirstOfMay>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.FirstOfMay/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</FirstOfMay>
+						<Lautapeli>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Lautapeli/</urlPrefix>
+							<urlSuffix>?v=21072008</urlSuffix>
+						</Lautapeli>
+						<Milja>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Milja/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</Milja>
+						<PiirtoPreview>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.PiirtoPreview/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</PiirtoPreview>
+						<Easter>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Easter/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</Easter>
+						<Galleria>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Galleria/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</Galleria>
+						<Veera>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Veera/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</Veera>
+						<Touho>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Touho/</urlPrefix>
+							<urlSuffix>?v=02122010</urlSuffix>
+						</Touho>
+						<Vertailuruutu>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Vertailuruutu/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</Vertailuruutu>
+						<NeljaHaltijatarta>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.NeljaHaltijatarta/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</NeljaHaltijatarta>
+						
+						<FrontPage>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.FrontPage/</urlPrefix>
+							<urlSuffix>?v=201222010b</urlSuffix>
+						</FrontPage>
+						
+						<ParentPage>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.ParentPage/</urlPrefix>
+							<urlSuffix>?v=201222010b</urlSuffix>
+						</ParentPage>
+						
+						<PL347>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.PL347/</urlPrefix>
+							<urlSuffix>?v=20042011b</urlSuffix>
+							<Content>
+								<type>direct</type>
+								<urlPrefix>assets/YLE.P2.PL347.Content/</urlPrefix>
+								<urlSuffix></urlSuffix>
+							</Content>
+						</PL347>
+												
+						<Friend>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Friend/</urlPrefix>
+							<urlSuffix>?v=07012009c</urlSuffix>
+							<Content>
+								<type>direct</type>
+								<urlPrefix>assets/YLE.P2.Friend.Content/</urlPrefix>
+								<urlSuffix></urlSuffix>
+							</Content>
+						</Friend>	
+						
+						<Taikametsa>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Taikametsa/</urlPrefix>
+							<urlSuffix>?v=10122010c</urlSuffix>
+							<Content>
+								<type>direct</type>
+								<urlPrefix>assets/YLE.P2.Taikametsa.Content/</urlPrefix>
+								<urlSuffix>?v=23042010</urlSuffix>
+							</Content>
+						</Taikametsa>						
+											
+						<Magicast>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Magicast/</urlPrefix>
+							<urlSuffix>?v=20042011c</urlSuffix>
+							<Content>
+								<type>direct</type>
+								<urlPrefix>assets/YLE.P2.Magicast.Content/</urlPrefix>
+								<urlSuffix>?v=09042010</urlSuffix>
+							</Content>
+						</Magicast>
+						
+						<DaDa>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.DaDa/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</DaDa>
+						
+						<Kaatis>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Kaatis/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</Kaatis>
+						
+						<ReettaRonja>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.ReettaRonja/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</ReettaRonja>
+						
+						<PiirraLaulellen>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.PiirraLaulellen/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</PiirraLaulellen>
+					
+						<Leimu>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Leimu/</urlPrefix>
+							<urlSuffix>?v=12112010e</urlSuffix>
+						</Leimu>	
+
+						<Aikakone>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Aikakone/</urlPrefix>
+							<urlSuffix>?v=14092011b</urlSuffix>
+						</Aikakone>							
+						
+						<Joulu2011>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Joulu2011/</urlPrefix>
+							<urlSuffix>?v=19102011</urlSuffix>
+						</Joulu2011>
+						
+						
+						<Radioasema>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Radioasema/</urlPrefix>
+							<urlSuffix>?v=31102011</urlSuffix>
+						</Radioasema>
+						
+						<Karhunpaini>
+							<type>direct</type>
+							<urlPrefix>assets/YLE.P2.Karhunpaini/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</Karhunpaini>	
+						
+										
+					</P2>
+				</YLE>
+				
+				<AlpakkaMedia>
+						<HertanMaailma>
+							<type>direct</type>
+							<urlPrefix>assets/AlpakkaMedia.HertanMaailma/</urlPrefix>
+							<urlSuffix>?v=12062008</urlSuffix>
+						</HertanMaailma>
+						<MalttiJaValtti>
+							<type>direct</type>
+							<urlPrefix>assets/AlpakkaMedia.MalttiJaValtti/</urlPrefix>
+							<urlSuffix></urlSuffix>
+						</MalttiJaValtti>						
+				</AlpakkaMedia>
+			</assetPackages>
+			
+			<P2ServerConnection>
+				<HTTPUrl>serverConnection/</HTTPUrl>
+				<socketUrl></socketUrl>
+				<socketPort></socketPort>
+				<pingInterval>60000</pingInterval>
+			</P2ServerConnection>
+
+			<P2Sprite>
+				<loadRetryDelay>5000</loadRetryDelay>
+			</P2Sprite>
+			
+			<P2Sound>
+				<testStartInterval>100</testStartInterval>		
+			</P2Sound>
+			
+		</P2Core>
+		
+	</P2Engine>
+	
+	<P2>
+		<World>
+				
+			<startRoomAsset><package>YLE.P2.FrontPage</package><name>main.swf</name></startRoomAsset>
+
+			<guideSoundPlayTresholdTime>250</guideSoundPlayTresholdTime>
+			
+		</World>
+	</P2>
+	
+</YLE>
