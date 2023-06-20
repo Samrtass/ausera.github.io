@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
 <head>
 	<title>Pikku Kakkonen | yle.fi</title>
 
@@ -10,10 +10,10 @@
 	<meta name="keywords" content="p2, pikkukakkonen, pikku kakkonen, pikku kakkosen pelit" />
 	<meta name="description" content="Pikku Kakkosen netistä löydät pelejä ja puuhaa televisiosta tuttujen hahmojen ja juontajien kanssa." />
 
-	<meta property="og:url" content="http://yle.fi/pikkukakkonen/" />
+	<meta property="og:url" content="https://yle.fi/pikkukakkonen/" />
 	<meta property="og:title" content="Pikku Kakkonen | yle.fi" />
 	<meta property="og:description" content="Pikku Kakkosen netistä löydät pelejä ja puuhaa televisiosta tuttujen hahmojen ja juontajien kanssa." />
-	<meta property="og:image" content="http://yle.fi/pikkukakkonen/facebook_og_image.jpg" />
+	<meta property="og:image" content="https://yle.fi/pikkukakkonen/facebook_og_image.jpg" />
 
 	<meta name="apple-itunes-app" content="app-id=576353477, app-argument=yle-pikkukakkonen:"/>
 
@@ -170,7 +170,7 @@ div#launcher {
 			</p>
 			<p>
 				Pikku Kakkosen nettisivut käyttävät Flash-laajennusta, jota selaimestasi ei löytynyt.
-				Asenna Flash turvallisesti ja ilmaiseksi <a href="http://get.adobe.com/flashplayer/">Adoben sivuilta</a> ja yritä uudelleen.
+				Asenna Flash turvallisesti ja ilmaiseksi <a href="https://get.adobe.com/flashplayer/">Adoben sivuilta</a> ja yritä uudelleen.
 			</p>
 			<p class="small">
 				Ongelmatapauksissa voit lähettää palautetta osoitteeseen <a href="mailto:pikkukakkonen@yle.fi">pikkukakkonen@yle.fi</a>.
@@ -186,7 +186,7 @@ div#launcher {
 			</p>
 			<p style="text-align: center;" id="store-buttons">
 				<a href="https://itunes.apple.com/fi/app/pikku-kakkonen/id576353477?l=fi&ls=1&mt=8" target="itunes_store"><img src="button_itunes.png" alt="Pikku Kakkonen - Yle.fi" style="border: 0;"/></a><span style="margin-right: 10px"></span>
-				<a href="http://play.google.com/store/apps/details?id=air.fi.yle.pikkukakkonen"><img src="button_google_play.png" style="border: 0;"/></a>
+				<a href="https://play.google.com/store/apps/details?id=air.fi.yle.pikkukakkonen"><img src="button_google_play.png" style="border: 0;"/></a>
 			</p>
 			<!--<p>
 				Mikäli olet jo asentanut sovelluksen, saat sisällön auki alla olevasta napista.
@@ -275,7 +275,7 @@ div#launcher {
 			$('body').css("overflow", "hidden");
 			$('body').css("background-color", "#fff");
 			if (true) {
-				sitestat("//da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-desktop." + window.location.hash.replace("#!/", "").replace("#", "") + ".sivu");
+				sitestat("da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-desktop." + window.location.hash.replace("#!/", "").replace("#", "") + ".sivu");
 				$.history.init(function(hash){
 					try {
 						$("#zadam").get(0).hashChange(hash.replace("!/", ""));
@@ -285,9 +285,9 @@ div#launcher {
 				$(window).resize(function() {
 					doResize();
 				});
-				var s =  "	<type>url</type>	<value>http://yle.fi/pikkukakkonen/client/core/loader.swf?v=5</value>	<parameters>		<assetURLRequestBuilder><type>core</type><URLPrefix>http://yle.fi/pikkukakkonen/client/core/</URLPrefix><URLSuffix>?v=48</URLSuffix></assetURLRequestBuilder>		<assetURLRequestBuilder><type>int</type><URLPrefix>http://yle.fi/pikkukakkonen/client/int/</URLPrefix><URLSuffix>?v=30</URLSuffix></assetURLRequestBuilder>		<assetURLRequestBuilder><type>ext</type><URLPrefix>http://yle.fi/pikkukakkonen/client/ext/</URLPrefix><URLSuffix>?v=1</URLSuffix></assetURLRequestBuilder>		<assetURLRequestBuilder><type>UGC</type><URLPrefix>http://yle.fi/pikkukakkonen/client/ugc/</URLPrefix><URLSuffix>?v=1</URLSuffix></assetURLRequestBuilder>		<!--		<animation>			<type>core</type>			<value>yle/loaderAnimation.swf</value>			<parameters>				<showLogo>true</showLogo>				<color>turkoosi</color>			</parameters>		</animation>		-->		<animation>			<type>core</type>			<value>p2/mobileAnimation.swf</value>		</animation>		<plugin><type>core</type><value>magicastInterface.swf</value></plugin>		<plugin>			<type>core</type>			<value>serverConnection.swf</value>			<parameters>				<HTTPUrl>/pikkukakkonen/server/</HTTPUrl>				<callInterval>100</callInterval>				<retryInterval>5000</retryInterval>				<failureInterval>10000</failureInterval>			</parameters>		</plugin>		<plugin>			<type>core</type>			<value>mahti.swf</value>			<parameters>				<clientName>www</clientName>				<multitouch>false</multitouch>			</parameters>		</plugin>		<plugin><type>core</type><value>tweener.swf</value></plugin>		<plugin><type>core</type><value>sound.swf</value></plugin>		<plugin><type>core</type><value>music.swf</value></plugin>		<plugin><type>core</type><value>p2/styler.swf</value></plugin>		<plugin>			<type>core</type>			<value>p2/main.swf</value>			<parameters>				<da>true</da>				<daPathPrefix>INSERT_DA_PATH_PREFIX_HERE</daPathPrefix>				<path>INSERT_PATH_HERE</path>				<homePath></homePath>				<sessionExpirePath>istunto-vanhentunut</sessionExpirePath>			</parameters>		</plugin>		<plugin>			<type>core</type>			<value>ui.swf</value>			<parameters>				<minWidth>1024</minWidth>				<minHeight>656</minHeight>				<maxWidth>9999</maxWidth>				<maxHeight>9999</maxHeight>				<component>background</component>				<component>mainMagicast</component>				<component>foreground</component>				<component>popupMagicast</component>				<component>UGC</component>				<component>systemDialog</component>			</parameters>		</plugin>	</parameters>";
+				var s =  "	<type>url</type>	<value>https://yle.fi/pikkukakkonen/client/core/loader.swf?v=5</value>	<parameters>		<assetURLRequestBuilder><type>core</type><URLPrefix>https://yle.fi/pikkukakkonen/client/core/</URLPrefix><URLSuffix>?v=48</URLSuffix></assetURLRequestBuilder>		<assetURLRequestBuilder><type>int</type><URLPrefix>https://yle.fi/pikkukakkonen/client/int/</URLPrefix><URLSuffix>?v=30</URLSuffix></assetURLRequestBuilder>		<assetURLRequestBuilder><type>ext</type><URLPrefix>https://yle.fi/pikkukakkonen/client/ext/</URLPrefix><URLSuffix>?v=1</URLSuffix></assetURLRequestBuilder>		<assetURLRequestBuilder><type>UGC</type><URLPrefix>https://yle.fi/pikkukakkonen/client/ugc/</URLPrefix><URLSuffix>?v=1</URLSuffix></assetURLRequestBuilder>		<!--		<animation>			<type>core</type>			<value>yle/loaderAnimation.swf</value>			<parameters>				<showLogo>true</showLogo>				<color>turkoosi</color>			</parameters>		</animation>		-->		<animation>			<type>core</type>			<value>p2/mobileAnimation.swf</value>		</animation>		<plugin><type>core</type><value>magicastInterface.swf</value></plugin>		<plugin>			<type>core</type>			<value>serverConnection.swf</value>			<parameters>				<HTTPUrl>/pikkukakkonen/server/</HTTPUrl>				<callInterval>100</callInterval>				<retryInterval>5000</retryInterval>				<failureInterval>10000</failureInterval>			</parameters>		</plugin>		<plugin>			<type>core</type>			<value>mahti.swf</value>			<parameters>				<clientName>www</clientName>				<multitouch>false</multitouch>			</parameters>		</plugin>		<plugin><type>core</type><value>tweener.swf</value></plugin>		<plugin><type>core</type><value>sound.swf</value></plugin>		<plugin><type>core</type><value>music.swf</value></plugin>		<plugin><type>core</type><value>p2/styler.swf</value></plugin>		<plugin>			<type>core</type>			<value>p2/main.swf</value>			<parameters>				<da>true</da>				<daPathPrefix>INSERT_DA_PATH_PREFIX_HERE</daPathPrefix>				<path>INSERT_PATH_HERE</path>				<homePath></homePath>				<sessionExpirePath>istunto-vanhentunut</sessionExpirePath>			</parameters>		</plugin>		<plugin>			<type>core</type>			<value>ui.swf</value>			<parameters>				<minWidth>1024</minWidth>				<minHeight>656</minHeight>				<maxWidth>9999</maxWidth>				<maxHeight>9999</maxHeight>				<component>background</component>				<component>mainMagicast</component>				<component>foreground</component>				<component>popupMagicast</component>				<component>UGC</component>				<component>systemDialog</component>			</parameters>		</plugin>	</parameters>";
 				s = s.replace("INSERT_PATH_HERE", path);
-				s = s.replace("INSERT_DA_PATH_PREFIX_HERE", '//da.yle.fi/yle/pikkukakkonen/s?');
+				s = s.replace("INSERT_DA_PATH_PREFIX_HERE", 'da.yle.fi/yle/pikkukakkonen/s?');
 				var flashvars = {
 					asset: s
 				};
@@ -318,7 +318,7 @@ div#launcher {
 					name: 'zadam',
 					id: 'zadam'
 				};
-				swfobject.embedSWF("http://yle.fi/pikkukakkonen/client/zadam/zadam.swf?v=6", "swfobject", "0", "0", "0", "expressInstall.swf", flashvars, params, attributes, function(e) {
+				swfobject.embedSWF("https://yle.fi/pikkukakkonen/client/zadam/zadam.swf?v=6", "swfobject", "0", "0", "0", "expressInstall.swf", flashvars, params, attributes, function(e) {
 					$('#zadam').css("z-index", 0);
 					doResize();
 				});
@@ -331,7 +331,7 @@ div#launcher {
 			$('#description').load('description.php?_escaped_fragment_=' + path, function() {
 				$('#noflash').show();
 				$('#desktop').show();
-				sitestat("//da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-noflash-desktop." + window.location.hash.replace("#!/", "").replace("#", "") + ".sivu");
+				sitestat("da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-noflash-desktop." + window.location.hash.replace("#!/", "").replace("#", "") + ".sivu");
 			});
 		}
 	});
@@ -403,7 +403,7 @@ div#launcher {
 function sitestat(u){var d=document,l=d.location;ns_pixelUrl=u+"&ns__t="+(new Date().getTime());u=ns_pixelUrl+"&ns_c="+((d.characterSet)?d.characterSet:d.defaultCharset)+"&ns_ti="+escape(d.title)+"&ns_jspageurl="+escape(l&&l.href?l.href:d.URL)+"&ns_referrer="+escape(d.referrer);(d.images)?new Image().src=u:d.write('<'+'p><img src="'+u+'" height="1" width="1" alt="*"><'+'/p>');};
 // ]]>
 </script>
-<noscript><p><img src="//da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-noscript.sivu" height="1" width="1" alt="*"></p></noscript>
+<noscript><p><img src="da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-noscript.sivu" height="1" width="1" alt="*"></p></noscript>
 <!-- End comScore CMC -->
 
 <!-- Google Tag Manager -->
@@ -421,7 +421,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 erSet:d.defaultCharset)+"&ns_ti="+escape(d.title)+"&ns_jspageurl="+escape(l&&l.href?l.href:d.URL)+"&ns_referrer="+escape(d.referrer);(d.images)?new Image().src=u:d.write('<'+'p><img src="'+u+'" height="1" width="1" alt="*"><'+'/p>');};
 // ]]>
 </script>
-<noscript><p><img src="//da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-noscript.sivu" height="1" width="1" alt="*"></p></noscript>
+<noscript><p><img src="da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-noscript.sivu" height="1" width="1" alt="*"></p></noscript>
 <!-- End comScore CMC -->
 
 <!-- Google Tag Manager -->
@@ -439,7 +439,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 erSet:d.defaultCharset)+"&ns_ti="+escape(d.title)+"&ns_jspageurl="+escape(l&&l.href?l.href:d.URL)+"&ns_referrer="+escape(d.referrer);(d.images)?new Image().src=u:d.write('<'+'p><img src="'+u+'" height="1" width="1" alt="*"><'+'/p>');};
 // ]]>
 </script>
-<noscript><p><img src="//da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-noscript.sivu" height="1" width="1" alt="*"></p></noscript>
+<noscript><p><img src="da.yle.fi/yle/pikkukakkonen/s?lapset.pikkukakkonen.index-noscript.sivu" height="1" width="1" alt="*"></p></noscript>
 <!-- End comScore CMC -->
 
 <!-- Google Tag Manager -->
